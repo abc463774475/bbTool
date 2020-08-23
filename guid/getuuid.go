@@ -8,7 +8,7 @@ import (
 	"io"
 	"crypto/aes"
 	"crypto/cipher"
-	"github.com/abc463774475/bbTool/n_log"
+	"github.com/abc463774475/bbtool/n_log"
 	"bytes"
 	"strings"
 	"fmt"

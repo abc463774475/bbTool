@@ -3,8 +3,8 @@ package n_rpc
 import (
 	"net/rpc"
 	"net"
-	"github.com/abc463774475/bbTool/n_log"
-	"github.com/abc463774475/bbTool/n_routine"
+	"github.com/abc463774475/bbtool/n_log"
+	"github.com/abc463774475/bbtool/n_routine"
 )
 
 func Init_Rpc(addr string, i... interface{}) {

@@ -1,11 +1,11 @@
 package n_rpc
 
 import (
-	"github.com/abc463774475/bbTool/n_log"
+	"github.com/abc463774475/bbtool/n_log"
 	"net"
 	"net/rpc"
 	"sync"
-	"github.com/abc463774475/bbTool/n_json"
+	"github.com/abc463774475/bbtool/n_json"
 )
 
 // 一个数据的连接

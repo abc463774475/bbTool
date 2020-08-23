@@ -1,11 +1,11 @@
 package n_rpc
 
 import (
-	"github.com/abc463774475/bbTool/n_log"
+	"github.com/abc463774475/bbtool/n_log"
 	"testing"
 	"net/rpc"
 	"net"
-	"github.com/abc463774475/bbTool/n_routine"
+	"github.com/abc463774475/bbtool/n_routine"
 	"time"
 )
 

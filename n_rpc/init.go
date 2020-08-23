@@ -1,6 +1,6 @@
 package n_rpc
 
-import "github.com/abc463774475/bbTool/n_log"
+import "github.com/abc463774475/bbtool/n_log"
 
 var (
 	G_RemotePool *RemoteFamilyMgr

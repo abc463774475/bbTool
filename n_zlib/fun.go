@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"compress/zlib"
 	"io"
-	"github.com/abc463774475/bbTool/n_log"
+	"github.com/abc463774475/bbtool/n_log"
 	"encoding/hex"
 )
 
