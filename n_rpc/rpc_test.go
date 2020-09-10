@@ -53,11 +53,11 @@ func Test11111111(t *testing.T)  {
 }
 
 func TestClientok(t *testing.T)  {
-	addr := "127.0.0.1:1234"
-
-	var reply []byte
-	err := CallRemote(addr, "Proxy_2.F1",[]byte("xxxxx"),&reply)
-
-	n_log.Debug("errr  %v",err)
-	n_log.Debug("reply  %v",string(reply))
+	//addr := "127.0.0.1:1234"
+	//
+	//var reply []byte
+	//err := CallRemote(addr, "Proxy_2.F1",[]byte("xxxxx"),&reply)
+	//
+	//n_log.Debug("errr  %v",err)
+	//n_log.Debug("reply  %v",string(reply))
 }

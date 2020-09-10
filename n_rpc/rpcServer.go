@@ -15,7 +15,7 @@ func Init_Rpc(addr string, i... interface{}) {
 
 	l, e := net.Listen("tcp", addr) // any available address
 	if e != nil {
-		n_log.Panic("",e)
+		n_log.Panic("%v ",e)
 	}
 	//go newServer.Accept(l)
 

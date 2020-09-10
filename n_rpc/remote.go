@@ -45,7 +45,7 @@ func (self *poolBaseData) Call(fName string, args interface{}, reply interface{}
 	case c := <-ctmp:
 		end := time.Now().Sub(s1)
 		if end >= 1*time.Second {
-			n_log.Erro("rpc handle too long ", end, fName)
+			n_log.Erro("rpc handle too long  %v  %v", end, fName)
 		}
 		return c.Error
 	case <-time.After(3 * time.Second):
@@ -54,7 +54,7 @@ func (self *poolBaseData) Call(fName string, args interface{}, reply interface{}
 
 	end := time.Now().Sub(s1)
 	if end >= 1*time.Second {
-		n_log.Erro("f %v handle rpc very long", fName, end)
+		n_log.Erro("f %v handle rpc very long  %v ", fName, end)
 	}
 	return nil
 }
